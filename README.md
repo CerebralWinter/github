@@ -1,5 +1,5 @@
 # github
-tutorial all'upload ed al download di repository
+tutorial alla creazione di un repository online, host di progetti locali.
 
 ## creare un repository online
 all'indirizzo https://github.com/new
@@ -18,8 +18,9 @@ al tab Code, all'etichetta local, alla voce https, copiare l'url del repository 
 da una nuova istanza di visual studio code, al menu start selezionare Clone Git Repository. copiare l'url, scegliere la cartella del passo 2.
 
 ## sincronizzare le modifiche avvenute sul repository locale con il repository online
+salvare delle modifiche
 ctrl+shift+G per il tab source control
-aggiungere un messaggio, premere commit
+aggiungere un messaggio, premere commit (dare ok), e sync changes (dare ok)
 
 
   
