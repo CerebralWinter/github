@@ -24,6 +24,10 @@ al tab Code, all'etichetta local, alla voce https, copiare l'url del repository 
 # upload di un progetto locale su github
 copiare la cartella del progetto locale nella sotto-cartella del passo 2.
 
+# nota
+le modifiche effettuate online richiedono un procedimento diverso per essere sincronizzate in locale
+
+
 
 
   
