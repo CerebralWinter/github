@@ -21,6 +21,9 @@ da una nuova istanza di visual studio code, al menu start selezionare Clone Git 
 salvare delle modifiche
 ctrl+shift+G per il tab source control
 aggiungere un messaggio, premere commit (dare ok), e sync changes (dare ok)
+# upload di un progetto locale su github
+copiare la cartella del progetto locale nella sotto-cartella del passo 2.
+
 
 
   
