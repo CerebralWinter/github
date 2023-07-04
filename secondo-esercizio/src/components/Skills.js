@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 const Skills = () => {
     return (
         <section>
@@ -10,5 +10,5 @@ const Skills = () => {
             </ul>
         </section>
     );
-};
+}
 export default Skills; 

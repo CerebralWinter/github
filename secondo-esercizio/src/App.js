@@ -1,17 +1,16 @@
-import React, { useEffect, useState} from 'react';
+import React, { useState, useEffect} from 'react';
 import './App.css';
 import Header from './components/Header';
 import Biography from './components/Biography';
 import Contacts from './components/Contacts';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-import Login from './components/Login';
 import jwt_decode from 'jwt-decode';
-
+import Login from './components/Login';
 
 function App() {
-  const [isAuthenticated, setIsAuthenticated] = useState(!!localStorage.getItem('token'));
-  // esLint-disable-next-line
+  const [isAuthenticated, setIsAuthenticated] = useState(!localStorage.getItem('token'));
+// eslint-disable-next-line
   const [userData, setUserData] = useState(() => {
     const token = localStorage.getItem('token');
     return token ? jwt_decode(token) : null;
@@ -50,10 +49,10 @@ function App() {
         <Skills />
         </>
       ) : (
-        <login onLogin={handleLogin} />
+        <Login onLogin={handleLogin} />
       )}  
     </div>
   );
-}
+};
 
 export default App;

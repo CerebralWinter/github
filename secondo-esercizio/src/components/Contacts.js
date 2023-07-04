@@ -6,6 +6,6 @@ const Contacts = () => {
             <p>puoi contattarmi via email a esempio@email.it</p>
         </section>
     );
-};
+}
 
 export default Contacts;

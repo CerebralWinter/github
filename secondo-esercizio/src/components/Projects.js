@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 const Projects = () => {
     return (
         <section>
@@ -16,5 +16,5 @@ const Projects = () => {
 
         </section>
     );
-};
+}
 export default Projects; 

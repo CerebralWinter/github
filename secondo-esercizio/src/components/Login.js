@@ -4,10 +4,11 @@ import axios from 'axios';
 const Login = ({ onLogin }) => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('/api/authenticate', { username, password});
+            const response = await axios.post('https://localhost:3001/api/authenticate', { username, password});
             onLogin(response.data.token);
         } catch (error) {
             console.error('Errore durante il login', error);
