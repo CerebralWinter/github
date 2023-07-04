@@ -1,8 +1,8 @@
 # github
 tutorial alla creazione di un repository online, host di progetti locali.
 
-1. ## creare il repository online:
-- all'indirizzo https://github.com/new
+## creare un repository online
+all'indirizzo https://github.com/new
 compilare i campi:
 nome repository (github), description.
 - impostare la visibilità:
